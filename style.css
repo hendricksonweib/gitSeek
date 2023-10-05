@@ -97,4 +97,18 @@ section{
     padding: 2%;
     margin: 1%;
 }
-
+.repositorio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 2%;
+}
+h4{
+    padding: 1%;
+}
