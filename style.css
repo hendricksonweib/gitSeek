@@ -4,13 +4,17 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+u{
+    color: white;
+    margin-top: 5%;
+}
 body{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to right,#FD8951, #FE224F)
+    background:linear-gradient(to right,#bc0a0a, #3f22fe)
 }
 #conteiner{
     display: flex;
@@ -64,7 +68,7 @@ button{
     margin-left: 3%;
 }
 #main{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -112,3 +116,11 @@ section{
 h4{
     padding: 1%;
 }
+ul{
+    color: white;
+    list-style: none;
+    text-align: center;
+}
+a {
+    color: #ffffff; 
+  }
